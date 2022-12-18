@@ -1,0 +1,98 @@
+body {
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Helvetica Neue LT Pro';
+	font-size: 16px;
+	font-style: light;
+	color: black;
+	letter-spacing: 1px;
+	line-height: 22px;
+}
+
+.main-container {
+	display: block;
+	width: 100%;
+}
+
+.logo2{
+   display: none;
+}
+
+.text {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+.menu {
+	display: flex;
+	position: relative;
+	margin-bottom: 10px;
+}
+.menu-item1 {
+	background-image: url('../img/flag.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #AFECFF;
+  	padding-left: 7px;
+  	padding-top: 5px;
+  	padding-bottom: 2px;
+  	width: 33%;
+}
+.menu-item2 {
+	background-image: url('../img/flag2.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: yellow;
+  		padding-left: 7px;
+  	padding-top: 5px;
+  	padding-bottom: 2px;
+  	width: 33%;
+}
+.menu-item3 {
+	background-image: url('../img/flag4.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #F27622;
+  	padding-left: 7px;
+  	padding-top: 5px;
+  	padding-bottom: 2px;
+  	width: 33%;
+}
+
+.fundraiser {
+    background-color: #eee;
+    position: fixed;
+    width: 20%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+@media (max-width: 600px) {
+.menu {
+	display: block;
+}
+.menu-item1 {
+	width:100%;
+}
+.menu-item2 {
+	width:100%;
+}
+.menu-item3 {
+	width:100%;
+}
+.menu-item4 {
+	width:100%;
+}
+.logo{
+   display: none;
+}
+.logo2{
+   display: block;
+   margin-bottom: 10px;
+   float: center;
+}
